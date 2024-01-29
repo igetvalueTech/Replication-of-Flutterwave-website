@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.starting{
+    background-image: url(../images/bg.svg);
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
+    margin-bottom:5px;
+header{
+    nav{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    #BT{
+        background-color: orange;
+        color: black;
+        border: thin solid orange;
+    }
+    }
+}
+.box{
+    max-width: 25%;
+    background-color: white;
+    border: thin solid white;
+    margin-left: 100px;
+    margin-top: 120px;
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+@keyframes move {
+    from{
+        transform: translate(460px);
+    }
+    to{
+        transform: translate(0px); 
+    }
+}
+    .box1{
+        width: 85%;
+        margin: auto;
+        margin-top: 35px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        h5{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 800;
+        }
+        form{
+            input{
+                width: 100%;
+                padding: 10px;
+                border: thin solid rgba(233, 231, 231, 0.996);
+                border-radius:5px;
+            }
+            button{
+                color: black;
+                background-color: orange;
+                width: 100%;
+                border: thin solid orange;
+                padding: 10px;
+                font-weight: 500;
+                font-size: 20px;
+                border-radius:5px;
+            }
+            a{
+                text-decoration: none ;
+            }
+        }
+        input:focus{
+            outline: thin solid orange;
+        }
+    }
+}
+}
+
+
+
+
+
+@media (max-width:1409px) {
+    .starting{
+        .box{
+            max-width: 30%;
+        }
+    }
+}
+@media (max-width:1305px) {
+    .starting{
+        .box{
+            max-width: 35%;
+        }
+    }
+}
+@media (max-width:1176px) {
+    .starting{
+        .box{
+            max-width: 40%;
+        }
+    }
+}
+@media (max-width:1051px) {
+    .starting{
+        .box{
+            max-width: 40%;
+        }
+    }
+}
+@media (max-width:997px) {
+    .starting{
+        .box{
+            max-width: 45%;
+        }
+    }
+}
+@media (max-width:719px) {
+    .starting{
+        .box{
+            max-width: 55%;
+        }
+    }
+}
+@media (max-width:630px) {
+    .starting{
+        .box{
+            max-width: 65%;
+        }
+    }
+}
+@media (max-width:565px) {
+    .starting{
+        .box{
+            max-width: 75%;
+        }
+    }
+}
+@media (max-width:500px) {
+    .starting{
+        .box{
+            max-width: 85%;
+            margin-left: 40px;
+        }
+    }
+}
+@media (max-width:426px) {
+    .starting{
+        .box{
+            max-width: 95%;
+            margin-left: 5px;
+        }
+    }
+}
+@media (max-width:360px) {
+    .starting{
+    header{
+        nav{
+    img{
+    width: 150px;
+    }
+    }
+    }
+        .box{
+            max-width: 95%;
+        }
+    }
+}
+@media (max-width:310px) {
+    .starting{
+    header{
+        nav{
+    img{
+    width: 80px;
+    }
+    }
+    }
+        .box{
+            max-width: 95%;
+        }
+    }
+}
+@media (max-width:230px) {
+    .starting{
+    header{
+        nav{
+    img{
+    width: 60px;
+       }
+    }
+    }
+        .box{
+            max-width: 95%;
+        }
+    }
+}
+
+
+
+
+
